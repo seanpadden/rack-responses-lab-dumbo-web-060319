@@ -1,8 +1,8 @@
 class Application
   resp = Rack::Respone.new 
   
-  num1 = Kernal.rand(1..24)
+  time = Kernal.rand(1..24)
   
-  resp.write 
+  resp.write "#{time}:00"
   
 end 
