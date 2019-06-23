@@ -7,7 +7,7 @@ class Application
   
   resp.write "#{time}:00"
   
-  if time = 1..11
+  if time < 12 
     resp.write "Good Morning!"
   else 
     resp.write "Good Afternoon!"
