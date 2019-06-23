@@ -1,5 +1,5 @@
 class Application
-  resp = Rack::Respone.new 
+  resp = Rack::Response.new 
   
   time = Kernal.rand(1..24)
   
