@@ -5,5 +5,9 @@ class Application
   
   resp.write "#{time}:00"
   
-  if time ==
+  if time == 1..11
+    resp.write "Good morning!"
+  else 
+    resp.write "Good Afternoon!"
+  end 
 end 
