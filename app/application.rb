@@ -1,6 +1,6 @@
 class Application
   
-  def call(evn)
+  def call(env)
   resp = Rack::Response.new 
   
   time = Kernel.rand(1..24)
