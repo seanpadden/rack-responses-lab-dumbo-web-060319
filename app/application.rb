@@ -5,4 +5,5 @@ class Application
   
   resp.write "#{time}:00"
   
+  if time 
 end 
