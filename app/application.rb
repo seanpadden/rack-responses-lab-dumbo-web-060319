@@ -1,6 +1,6 @@
 class Application
   resp = Rack::Respone.new 
   
-  num1 = 
+  num1 = Kernal.rand
   
 end 
