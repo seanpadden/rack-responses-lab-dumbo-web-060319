@@ -3,5 +3,6 @@ class Application
   
   num1 = Kernal.rand(1..24)
   
+  resp.write 
   
 end 
